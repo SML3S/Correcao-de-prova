@@ -33,24 +33,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0">
 
-        <ImageView
-            android:id="@+id/donut_circle"
-            android:layout_width="match_parent"
-            android:layout_height="77dp"
-            android:src="drawable/icecream_circle.jpg" />
-
-        <ImageView
-            android:id="@+id/icecream_circle"
-            android:layout_width="match_parent"
-            android:layout_height="77dp"
-            android:scaleType="centerInside"
-            android:src="drawable/drawable/donut_circle.jpg.jpg" />
-
-        <ImageView
-            android:id="@+id/froyo_circle"
-            android:layout_width="match_parent"
-            android:layout_height="77dp"
-            android:src="drawable/drawable/froyo_circle.jpg.jpg" />
+       
 
 
     </LinearLayout>
