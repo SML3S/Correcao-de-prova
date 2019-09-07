@@ -12,22 +12,20 @@
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:gravity="center_vertical"
         android:orientation="vertical"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintTop_toTopOf="parent">
 
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/imageView5"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/icecream_circle" />
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/donut_circle" />
 
         <ImageView
             android:id="@+id/imageView4"
@@ -36,18 +34,18 @@
             app:srcCompat="@drawable/froyo_circle" />
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/imageView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/donut_circle" />
+            app:srcCompat="@drawable/icecream_circle" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout1"
-        android:layout_width="160dp"
-        android:layout_height="wrap_content"
+        android:layout_width="136dp"
+        android:layout_height="355dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="52dp"
         android:layout_marginBottom="8dp"
         android:gravity="center_vertical"
         android:orientation="vertical"
@@ -55,18 +53,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
         tools:ignore="DuplicateIds">
 
         <TextView
             android:id="@+id/text_icecream_circle"
-            android:layout_width="238dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="172dp"
+            android:layout_marginTop="35dp"
             android:layout_marginEnd="8dp"
+            android:gravity="top"
             android:text=""
-            android:textSize="8sp"
+            android:textAlignment="viewStart"
+            android:textSize="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/linearLayout1"
@@ -77,11 +76,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="70dp"
             android:layout_marginEnd="8dp"
+            android:gravity="top"
             android:text=""
             android:textAlignment="viewStart"
-            android:textSize="8sp"
+            android:textSize="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/linearLayout1"
@@ -92,11 +92,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="136dp"
+            android:layout_marginTop="75dp"
             android:layout_marginEnd="8dp"
+            android:gravity="top"
             android:text=""
             android:textAlignment="viewStart"
-            android:textSize="8sp"
+            android:textSize="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/linearLayout1"
